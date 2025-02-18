@@ -4,7 +4,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/svechino/dash-projects?color=green&style=for-the-badge)
 ![GitHub stars](https://img.shields.io/github/stars/svechino/dash-projects?style=for-the-badge)
 
-🔎 **Job Market Analysis Dashboard** is an interactive **Dash application** that analyzes **in-demand skills and average salaries** for **Data Analysts** based on job postings.  
+🔎 **A Dash-based interactive web application that analyzes job market trends for Data Analysts.**
+Built using **Dash, Plotly, Pandas, OpenAI API, and LangChain** to extract and visualize in-demand skills and salary trends.
 
 🔥 **Live demo available here**: 👉 [**Live App**](https://job-market-frosty-rain-6871.fly.dev/) 🚀  
 
@@ -12,21 +13,18 @@
 ![Job Market Analysis Dashboard](https://github.com/svechino/dash-projects/blob/main/job_market/Screenshot.png)
 
 ## **🛠 Features**
-✅ **Top 10 in-demand skills** for Data Analysts  
-✅ **Filter skills by city**  
-✅ **Average salary visualization** by city and state  
-✅ **Industry and company foundation year analysis**  
-✅ Interactive **Plotly visualizations**  
+✅ **Top In-Demand Skills:** Extracts and visualizes the most frequently required skills for Data Analysts.
+✅ **Average Salary Analysis:** Displays salary distributions by city and state.  
+✅ **Company Trends:** Compares how new and established companies post job vacancies.
+✅ **Industry Distribution:** Shows the distribution of job postings across different industries. 
+✅ **💡AI-Powered Skill Extraction:** Uses **OpenAI's GPT model via LangChain** to extract required skills from job descriptions 
 
-## **📌 Tech Stack**
-- **Python**
-- **Dash** + **Dash Bootstrap**
-- **Pandas**
-- **Plotly**
-- **Seaborn**
-- **Matplotlib**
-- **WordCloud**
-- **Fly.io (Deployment)**
+## **🔗 Technologies Used
+- **Dash & Plotly** → Interactive UI and visualizations
+- **Pandas** → Data processing and transformation
+- **Matplotlib & Seaborn** → Additional data exploration
+- **OpenAI API & LangChain** → Extracting skills from job descriptions using NLP
+- **Docker & Fly.io** → Deployment
 
 ---
 
@@ -46,7 +44,18 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
-### **3️⃣ Run the Application**
+### **3️⃣ Set Up OpenAI API Key
+1. Create a .env file in the project folder:
+```bash
+touch .env
+```
+2. Add your OpenAI API key:
+```bash
+OPENAI_API_KEY=your-api-key-here
+```
+
+
+### **4️⃣ Run the Application**
 ```bash
 python app.py
 ```

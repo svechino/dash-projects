@@ -9,7 +9,7 @@
 🔥 **Live demo available here**: 👉 [**Live App**](https://job-market-frosty-rain-6871.fly.dev/) 🚀  
 
 ## **📸 Application Screenshot**
-![Job Market Analysis Dashboard](https://github.com/svechino/dash-projects/blob/main/prtscreen.png)
+![Job Market Analysis Dashboard](https://github.com/svechino/dash-projects/blob/main/job_market/Screenshot.png)
 
 ## **🛠 Features**
 ✅ **Top 10 in-demand skills** for Data Analysts  
